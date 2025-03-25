@@ -1,0 +1,418 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    padding: 0;
+    background-color: #DCEAF2;
+    color: #333;
+}
+
+header {
+    background-color:#2D4010;
+    padding: 10px 0;
+    text-align: center;
+    height: 50px;
+}
+
+
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav  li {
+    margin: 15px 30px;
+}
+
+li a:hover{
+    
+    background-color:#59684099;  
+    padding: 15px;
+}
+
+header  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold; /*definir el grosor de fuente y poner en negrita*/
+}
+
+main {
+    margin: 20px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Baloo Da 2';
+}
+
+
+
+
+
+.superior {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.imagen-super img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.Bienvenidos h1 {
+    color: #000000;
+    text-align: center;
+}
+
+.Bienvenidos p {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.button{
+    margin-top: 5px;
+    display: inline-block; /* Coloca los botones en línea */
+    margin-left: 540px;
+    background-color: #A64826;
+    color: white; /* Color del texto */
+    text-align: center;
+    text-decoration: none; /* Elimina el subrayado del texto */
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color:#823B1D; /* Color al pasar el cursor */
+}
+
+
+.galeria{
+    background-color: #d9c4843e;
+    flex-wrap: wrap;
+    gap: 20px; /*Espacio entre targetas*/
+    justify-content: center;
+    padding: 20px;
+}
+.gallery-item {
+    display: inline-block;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05); /* Escala al pasar el cursor */
+    box-shadow: 5px 6px 8px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+}
+.gallery-item img {
+    width: 300px;
+    height: 190px;
+    border-bottom: 1px solid #ccc; 
+}
+.gallery-item h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color:#2D4010;
+    font-weight: bold; /*Negrita*/
+}
+.gallery-item p {
+    margin: 10px;
+    font-size: 14px;
+    color: #555;
+    font-style: italic; /* Texto en cursiva */
+} 
+
+.gallery-item p i {
+    font-style: italic; /* Asegura estilo para nombres científicos */
+    color: #333; /* Color ligeramente más oscuro */
+}
+
+
+
+
+
+.valores h1{
+    text-align: center;
+    
+}
+
+.valores {
+    display: inline-block;
+    display: inline-flex;
+    gap: 15px; /*Define los espacios*/
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin: 10px;
+}
+
+.valor {
+    background-color: #567317;
+    color: white;
+    padding: 20px 70px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;  /*definir el grosor de fuente y poner en negrita*/
+    text-align: center;
+   
+}
+
+
+
+section h1{
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.objetivos p {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.nosotros img{
+    width: 1200px;
+    height: 1000px;
+    margin: 20px;
+}
+
+
+.mision, .vision {
+    display: flex;
+    align-items: center;
+    margin: 20px ;
+    margin-top: 90px;
+}
+
+.mision h1{
+    text-align: center;
+    margin-bottom: 300px;
+    margin-left: 100px;
+}
+
+.mision p{
+    text-align: center;
+    padding: 50px;
+    margin-top: -300px;
+    margin-left: 100px;
+    font-size: 20px;
+
+}
+
+
+.vision p{
+    text-align: center;
+    padding: 50px;
+    margin-top: -50px;
+    font-size: 20px;
+}
+
+
+.mision img {
+    margin-right: 80px;
+    margin-left: 70px;
+    width: 300px; /* Ajusta según tu diseño */
+    height: 400px;
+    flex-direction: row; /* Imagen a la derecha del texto */
+
+}
+
+.vision img {
+    margin-right: 20px;
+    width: 900px; /* Ajusta según tu diseño */
+    height: 400px;}
+
+
+
+
+
+
+form {
+    margin: 0 auto; /* Centrar el formulario */
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 8px;
+}
+
+
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #555;
+    resize: none; /*para evitar que sea redimensionable*/
+}
+
+input[type="text"], input[type="date"], input[type="password"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #555;
+    box-sizing: border-box; /*mantener el tamaño*/
+}
+
+
+
+
+
+table{
+    margin-top: 50px;
+    margin-left: 150px;
+    align-self: center;
+    width: 900px;
+    height: auto;
+}
+
+
+th {
+    background-color: #415f50; /* Verde natural */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Sirve para alternar colores de las filas */
+tr:nth-child(even) {
+    background-color: #cad2d6ba;
+}
+
+tr:nth-child(odd) {
+    background-color: #eaeff7; 
+}
+
+/* Efecto hover en las filas */
+tr:hover {
+    background-color: #8380a475; /* Verde más claro */
+    transition: background-color 0.3s ease;
+}
+
+/* Resaltar datos importantes */
+td:last-child { /*Ultima celda*/
+    font-weight: bold; /*negrita*/
+    color: #60707e; 
+}
+
+.button-container {
+    
+    text-align: center; /* Centra los botones debajo de la tabla */
+    margin-top: 20px; /* Espaciado superior respecto a la tabla */
+}
+
+
+
+
+/*FOOTER*/
+.zoo-footer {
+    background-color: #567317; /* Verde natural */
+    color: white; /* Texto en blanco para contraste */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Espaciado entre secciones */
+}
+
+.footer-section {
+    margin: 20px;
+    width: 600px; /* Cada sección ocupa menos de la mitad del ancho */
+}
+
+.footer-section h3 {
+    text-transform: uppercase; /* Títulos en mayúsculas */
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #A2A638; /* Amarillo suave para destacar */
+}
+
+.footer-section p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* Estilo para los enlaces de redes sociales */
+.icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    text-decoration: none; /* Elimina el subrayado */
+    font-size: 16px;
+    color: white;
+}
+
+.icon img {
+    width: 25px; 
+    height: 25px;
+    margin-left: 10px; 
+}
+
+.icon:hover {
+    color: #A2A638; /* Cambia el color al pasar el cursor */
+}
+
+
+
+
+
+
+
+
+ 
+
+  
+
+
+
+
+
+
+
+
+
+
+
